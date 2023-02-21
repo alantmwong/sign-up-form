@@ -1,0 +1,10 @@
+body {
+    background-image: url("ferns.avif");
+    background-repeat: no-repeat;
+}
+
+.background {
+    outline: 2px;
+    outline-color: red;
+    outline-style: solid;
+}
