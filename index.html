@@ -10,7 +10,38 @@
 <body>
     <div class="background"></div>
     <div class="main-page">
-        <h2>This is not a real online service! Sign up now to get started.</h2>
+        <h2>
+            This is not a real online service! This is some filler text 
+            for a fictitious sign up form. So sign up now to get started.
+        </h2>
+        <form action="/sign-up-form" method="post">
+            <ul>
+                <li>
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name" name="user-first-name" />
+                </li>
+                <li>
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name" name="user-last-name" />
+                </li>
+                <li>
+                    <label for="mail">EMAIL</label>
+                    <input type="email" id="mail" name="user-email">
+                </li>
+                <li>
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="number" id="phone-number" name="user-phone-number">
+                </li>
+                <li>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="user-password">
+                </li>
+                <li>
+                    <label for="password">CONFIRM PASSWORD</label>
+                    <input type="password" id="password" name="user-password">
+                </li>
+            </ul>
+        </form>
     </div>
 </body>
 </html>

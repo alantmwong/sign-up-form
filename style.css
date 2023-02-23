@@ -1,18 +1,29 @@
+body {
+    display: flex;
+    /* margin: 0; */ 
+}
+
 .background, .main-page {
     outline: 2px;
     outline-color: red;
     outline-style: solid;
-    /* margin: 0; */
-    
 }
+
+/* Left Side */
 
 .background {
     height: 100vh;
-    width: 1000px;
+    width: 35vw;
     background-image: url("ferns.avif");
     background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
 }
 
-body {
-    display: flex;
+/* Right side*/
+
+.main-page {
+    width: 65vw;
+    height: auto;
+    background-color: rgb(241, 241, 241);
 }
