@@ -8,40 +8,47 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="background"></div>
+    <div class="background">
+        <div class="logo">
+            <img src="./odin-lined.png" alt="logo" class="odin">
+            <h1 class="odin">Odin</h1>
+        </div>
+    </div>
     <div class="main-page">
         <h2>
             This is not a real online service! This is some filler text 
             for a fictitious sign up form. So sign up now to get started.
         </h2>
-        <form action="/sign-up-form" method="post">
+        <form action="#" method="post">
             <ul>
                 <li>
                     <label for="first-name">FIRST NAME</label>
-                    <input type="text" id="first-name" name="user-first-name" />
+                    <input type="text" id="first-name" name="user-first-name" required>
                 </li>
                 <li>
                     <label for="last-name">LAST NAME</label>
-                    <input type="text" id="last-name" name="user-last-name" />
+                    <input type="text" id="last-name" name="user-last-name" required/>
                 </li>
                 <li>
                     <label for="mail">EMAIL</label>
-                    <input type="email" id="mail" name="user-email">
+                    <input type="email" id="mail" name="user-email" required/>
                 </li>
                 <li>
                     <label for="phone-number">PHONE NUMBER</label>
-                    <input type="number" id="phone-number" name="user-phone-number">
+                    <input type="number" id="phone-number" name="user-phone-number" required/>
                 </li>
                 <li>
                     <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="user-password">
+                    <input type="password" id="password" name="user-password" required/>
                 </li>
                 <li>
                     <label for="password">CONFIRM PASSWORD</label>
-                    <input type="password" id="password" name="user-password">
+                    <input type="password" id="confirm-password" name="user-password" required/>
                 </li>
             </ul>
         </form>
+        <button type="submit">Create Account</button>
+        <p>Already have an account?</p><a href="#">Log in</a>
     </div>
 </body>
 </html>
