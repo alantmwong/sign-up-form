@@ -53,4 +53,17 @@ h1 {
 form {
     background-color: white;
     box-shadow: 2px 5px 8px #888888;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+legend {
+    width: 100%;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 35%;
+    font-size: 0.9rem;
 }
