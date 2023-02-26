@@ -24,7 +24,7 @@
                 So sign up now to get started.
             </h2>
         </div>
-        <form action="#" method="post">
+        <form action="#" id="myform" method="post">
             <legend>Let's do this!</legend>
                     <div class="input">
                         <label for="first-name">FIRST NAME</label>
@@ -55,9 +55,8 @@
                         <label for="password">CONFIRM PASSWORD</label>
                         <input type="password" id="confirm-password" name="user-password" required>
                     </div>
-
         </form>
-        <button type="submit">Create Account</button>
+        <input type="submit" form="myform" value="Create Account" class="button">
         <div class="bottom-text">
             <p>Already have an account?</p><a href="#">Log in</a>
         </div>
